@@ -15,7 +15,12 @@
      <ul>
        <?php
             // TODO votre code ici
+       foreach ($students as $student) {
+           echo $student ."<br>";
+       }
        ?>
      </ul>
 
     <!-- Incluez le fichier index2.php ici bas de manière a obtenir la suite du code HTML. -->
+  <?php
+    include "index2.php";
